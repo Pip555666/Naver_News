@@ -17,7 +17,7 @@ options = webdriver.ChromeOptions()
 options.add_argument("--start-maximized")  # 창 최대화
 driver = webdriver.Chrome(options=options)
 
-# 종목 리스트 (삼성전자만 실행, 다른 종목은 유지)
+# 종목 리스트
 stocks = {
     "SK이노베이션": "096770",
     # "POSCO플릭스": "005490",
